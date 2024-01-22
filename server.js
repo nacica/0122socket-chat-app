@@ -17,6 +17,11 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(process.env.PORT || 3000, () => {
+
+// server.listen(process.env.PORT || 3000, () => {
+//   console.log("listenin on 3000");
+// });
+
+server.listen("https://nodejs-express-socket-chat-app.vercel.app/" || 3000, () => {
   console.log("listenin on 3000");
 });
