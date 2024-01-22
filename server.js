@@ -18,10 +18,7 @@ io.on("connection", (socket) => {
 });
 
 
-// server.listen(process.env.PORT || 3000, () => {
-//   console.log("listenin on 3000");
-// });
-
-server.listen("https://0122socket-chat-app.vercel.app/" || 3000, () => {
+server.listen(process.env.PORT || 3000, () => {
   console.log("listenin on 3000");
 });
+
